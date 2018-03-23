@@ -1,0 +1,41 @@
+@font-face {
+  font-family: "fontin";
+  src: url("assets/fonts/fontin-regular-webfont.ttf") format("ttf"),
+  url("assets/fonts/fontin-regular-webfont.woff") format("woff");
+}
+
+ul{
+  list-style-type: none;
+  font-family:'fontin';
+}
+
+.App {
+  text-align: center;
+  *font-family:'fontin';
+
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 115px;
+  padding: 20px;
+  color: white;
+  font-family:'fontin';
+  font-size: 50px;
+  
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-family:'fontin';
+  font-size: large;
+}
+
